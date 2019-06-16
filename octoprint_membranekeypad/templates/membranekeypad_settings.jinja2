@@ -1,0 +1,135 @@
+<div class="container span12">
+    <div class="tabbable">
+        <h4>Membrane Keypad Settings</h4>
+        <ul class="nav nav-tabs" id="membranekeypad_tabs">
+            <li class="active"><a data-toggle="tab" href="#membranekeypad_general">General</a></li>
+            <li><a data-toggle="tab" href="#membranekeypad_advanced">Advanced</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="membranekeypad_general" class="tab-pane active">
+
+                <h3>{{ _('Axis movement distance') }}</h3>
+                <div class="control-group" title="{{_('Axis Movement Distance') }}">
+                    <label class="control-label" for="settings-membranekeypad-movementAmount">{{ _('X and Y Axis:')
+                        }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-movementAmount" type="number"
+                                   class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.movementAmount">
+                            <span class="add-on">mm</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-movementAmountZ">{{ _('Z Axis:')
+                        }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-movementAmountZ" type="number"
+                                   class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.movementAmountZ">
+                            <span class="add-on">mm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>{{ _('Extruder movement distance') }}</h3>
+                <div class="control-group" title="{{_('Extruder') }}">
+                    <label class="control-label" for="settings-membranekeypad-extrudeAmount">{{ _('Extrude:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-extrudeAmount" type="number"
+                                   class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.extrudeAmount">
+                            <span class="add-on">mm</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-retractAmount">{{ _('Retract:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-retractAmount" type="number"
+                                   class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.retractAmount">
+                            <span class="add-on">mm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" title="{{_('Misc') }}">
+                    <label class="control-label" for="settings-membranekeypad-cancelDelay">{{ _('Cancel Button Hold Delay (0 for None):') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-cancelDelay" type="number"
+                                   class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.cancelDelay">
+                            <span class="add-on">Seconds</span>
+                        </div>
+                    </div>
+                </div>		
+            </div>
+            <div id="membranekeypad_advanced" class="tab-pane">
+                <h3>{{ _('Advanced') }}</h3>
+                <div class="control-group" title="{{_('Keypad Pins (BCM)') }}">
+                    <label class="control-label" for="settings-membranekeypad-pRP1">{{ _('Row Pin 1:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pRP1" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pRP1">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-pRP2">{{ _('Row Pin 2:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pRP2" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pRP2">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-pRP3">{{ _('Row Pin 3:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pRP3" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pRP3">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-pRP4">{{ _('Row Pin 4:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pRP4" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pRP4">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <label class="control-label" for="settings-membranekeypad-pCP1">{{ _('Column Pin 1:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pCP1" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pCP1">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-pCP2">{{ _('Column Pin 2:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pCP2" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pCP2">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <label class="control-label" for="settings-membranekeypad-pCP3">{{ _('Column Pin 3:') }}</label>
+                    <div class="controls">
+                        <div class="input-append">
+                            <input id="settings-membranekeypad-pCP3" type="number" class="input-mini text-right"
+                                   data-bind="value: settings.plugins.membranekeypad.pCP3">
+                            <span class="add-on">(BCM)</span>
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <a href="http://pinout.xyz" target="new">Raspberry Pi Pinout</a> (Use BCM Numbering Scheme)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

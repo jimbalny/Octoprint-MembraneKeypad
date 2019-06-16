@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+OctoPrint_Membranekeypad.egg-info/PKG-INFO
+OctoPrint_Membranekeypad.egg-info/SOURCES.txt
+OctoPrint_Membranekeypad.egg-info/dependency_links.txt
+OctoPrint_Membranekeypad.egg-info/entry_points.txt
+OctoPrint_Membranekeypad.egg-info/not-zip-safe
+OctoPrint_Membranekeypad.egg-info/requires.txt
+OctoPrint_Membranekeypad.egg-info/top_level.txt
+octoprint_membranekeypad/__init__.py
+octoprint_membranekeypad/static/css/membranekeypad.css
+octoprint_membranekeypad/static/js/membranekeypad.js
+octoprint_membranekeypad/static/less/membranekeypad.less
+octoprint_membranekeypad/templates/README.txt

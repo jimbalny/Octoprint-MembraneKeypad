@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_membranekeypad/templates *
+recursive-include octoprint_membranekeypad/translations *
+recursive-include octoprint_membranekeypad/static *
