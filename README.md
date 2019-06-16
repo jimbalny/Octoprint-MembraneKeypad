@@ -1,6 +1,6 @@
 # OctoPrint-Membranekeypad
 
-Use a (currently only) 3x4 membrane keypad over Raspberry Pi's GPIO on your Octopi
+Use a (currently only) 3x4 membrane matrix keypad over Raspberry Pi's GPIO to control your 3D Printer
 
 ## Setup
 
