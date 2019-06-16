@@ -1,0 +1,691 @@
+2019-06-16 10:52:07,576 - octoprint.startup - INFO - ******************************************************************************
+2019-06-16 10:52:07,578 - octoprint.startup - INFO - Starting OctoPrint 1.3.11
+2019-06-16 10:52:07,579 - octoprint.startup - INFO - Starting in SAFE MODE. Third party plugins will be disabled!
+2019-06-16 10:52:07,580 - octoprint.startup - INFO - Reason for safe mode: problem during last startup
+2019-06-16 10:52:07,581 - octoprint.startup - INFO - ******************************************************************************
+2019-06-16 10:52:07,656 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-06-16 10:52:08,584 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2019-06-16 10:52:08,657 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2019-06-16 10:52:10,701 - octoprint.plugin.core - INFO - Plugin TouchUI (0.3.13) is disabled.
+2019-06-16 10:52:11,011 - octoprint.plugin.core - INFO - Plugin Firmware Updater (1.4.0) is disabled.
+2019-06-16 10:52:11,258 - octoprint.plugin.core - INFO - Found 32 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2019-06-16 10:52:11,398 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2019-06-16 10:52:11,430 - octoprint.server - INFO - Intermediary server started
+2019-06-16 10:52:11,431 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2019-06-16 10:52:12,320 - octoprint.plugin.core - INFO - Found 32 plugin(s) providing 15 mixin implementations, 23 hook handlers
+2019-06-16 10:52:12,377 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2019-06-16 10:52:13,285 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2019-06-16 10:52:13,288 - octoprint.events - DEBUG - Subscribed listener <function on_settings_update at 0x72d31f70> for event SettingsUpdated
+2019-06-16 10:52:13,306 - octoprint.events - DEBUG - Subscribed listener <bound method Printer._on_event_MetadataAnalysisFinished of <octoprint.printer.standard.Printer object at 0x72cb4d90>> for event MetadataAnalysisFinished
+2019-06-16 10:52:13,307 - octoprint.events - DEBUG - Subscribed listener <bound method Printer._on_event_MetadataStatisticsUpdated of <octoprint.printer.standard.Printer object at 0x72cb4d90>> for event MetadataStatisticsUpdated
+2019-06-16 10:52:13,751 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2019-06-16 10:52:15,680 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python -m pip" as command to invoke pip
+2019-06-16 10:52:17,570 - octoprint.util.pip - INFO - Version of pip is 19.1.1
+2019-06-16 10:52:17,572 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-06-16 10:52:17,573 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-06-16 10:52:17,578 - octoprint.plugin.core - INFO - Initialized 15 plugin implementation(s)
+2019-06-16 10:52:17,672 - octoprint.plugin.core - INFO - 32 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+| !Autoscroll (0.0.2) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_autoscroll
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+| !Bed Visualizer (0.1.8) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+| !BetterHeaterTimeout (1.2.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+| !BLTouch Plugin (0.3.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_BLTouch
+| !Cancel Objects (0.3.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_cancelobject
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+| !Dragon Order (0.1.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_dragon_order
+| !EEPROM Marlin Editor Plugin (1.2.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_eeprom_marlin
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+| !Firmware Updater (1.4.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+| !Fullscreen Plugin (0.0.4) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_fullscreen
+| !GcodeEditor (0.2.6) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_GcodeEditor
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+| !M117 Speech Synthesis (0.5.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_M117SpeechSynthesis
+| !Membrane Keypad Plugin (0.1.0) = /home/pi/.octoprint/plugins/OctoPrint-Membranekeypad/octoprint_membranekeypad
+| !Navbar Temperature Plugin (0.11) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+| !SlicerSettingsTab (1.0.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_SlicerSettingsTab
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+| !Themeify (1.2.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_themeify
+| !TouchUI (0.3.13) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+| !Webcam Tab (0.1.2) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_webcamtab
+2019-06-16 10:52:17,693 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918188032
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|      octopi_version: 0.16.0
+|  python:
+|    pip: 19.1.1
+|    version: 2.7.13
+|    virtualenv: /home/pi/oprint
+2019-06-16 10:52:17,705 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2019-06-16 10:52:17,724 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2019-06-16 10:52:18,241 - octoprint.server - INFO - Shutting down intermediary server...
+2019-06-16 10:52:18,524 - octoprint.server - INFO - Intermediary server shut down
+2019-06-16 10:52:18,527 - octoprint.events - INFO - Processing startup event, this is our first event
+2019-06-16 10:52:18,529 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2019-06-16 10:52:18,529 - octoprint.events.fire - DEBUG - Firing event: Startup (Payload: None)
+2019-06-16 10:52:18,533 - octoprint.events.fire - DEBUG - Firing event: ConnectivityChanged (Payload: {'new': True, 'old': False})
+2019-06-16 10:52:18,553 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2019-06-16 10:52:18,607 - octoprint.plugins.softwareupdate - DEBUG - Looks like we are online
+2019-06-16 10:52:18,703 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:52:18,717 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2019-06-16 10:52:18,841 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:52:18,859 - octoprint.events.fire - DEBUG - Firing event: Connecting (Payload: None)
+2019-06-16 10:52:18,941 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:52:19,051 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2019-06-16 10:52:19,108 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2019-06-16 10:52:19,114 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-06-16 10:52:19,129 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _http._tcp
+2019-06-16 10:52:19,145 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-06-16 10:52:19,146 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': 'Opening serial port', 'state_id': 'OPEN_SERIAL'})
+2019-06-16 10:52:19,158 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': 'Connecting', 'state_id': 'CONNECTING'})
+2019-06-16 10:52:19,163 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-16 10:52:19,200 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _octoprint._tcp
+2019-06-16 10:52:19,208 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:52:19,212 - octoprint.plugins.pi_support - DEBUG - Retrieving throttle state via "/usr/bin/vcgencmd get_throttled"
+2019-06-16 10:52:19,240 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2019-06-16 10:52:19,261 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:52:19,337 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:52:19,377 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2019-06-16 10:52:19,394 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:52:19,469 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:52:19,490 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2019-06-16 10:52:19,664 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:52:19,763 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:52:19,895 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:52:19,992 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:52:20,535 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from https://plugins.octoprint.org/plugins.json
+2019-06-16 10:52:21,275 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2019-06-16 10:52:21,599 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python -m pip" as command to invoke pip
+2019-06-16 10:52:21,601 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-06-16 10:52:21,602 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-06-16 10:52:21,625 - octoprint.plugins.softwareupdate - DEBUG - Looks like we are online
+2019-06-16 10:52:21,665 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2019-06-16 10:52:22,053 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://octopi/'}
+2019-06-16 10:52:27,826 - octoprint.server.util.flask - INFO - Passively logging in user jim from ::ffff:192.168.1.8
+2019-06-16 10:52:32,317 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:52:32,335 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:52:43,375 - octoprint.server.preemptive_cache - INFO - ... done in 21.32s
+2019-06-16 10:52:43,787 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.1.8
+2019-06-16 10:52:43,947 - octoprint.server.util.flask - INFO - Passively logging in user jim from ::ffff:192.168.1.8
+2019-06-16 10:52:46,130 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:52:46,196 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:52:46,300 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:52:46,447 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:52:46,470 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:52:46,473 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:52:46,559 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:52:46,619 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:52:46,701 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:52:46,778 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:52:46,911 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:52:47,012 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:52:47,167 - octoprint.plugins.softwareupdate - DEBUG - Looks like we are online
+2019-06-16 10:52:47,228 - octoprint.server.util.sockjs - INFO - User jim logged in on the socket from client ::ffff:192.168.1.8
+2019-06-16 10:52:47,233 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PowerOn
+2019-06-16 10:52:47,233 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FirmwareData
+2019-06-16 10:52:47,234 - octoprint.events.fire - DEBUG - Firing event: ClientOpened (Payload: {'remoteAddress': '::ffff:192.168.1.8'})
+2019-06-16 10:52:47,235 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FileDeselected
+2019-06-16 10:52:47,237 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PostRollEnd
+2019-06-16 10:52:47,238 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FolderRemoved
+2019-06-16 10:52:47,238 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PowerOff
+2019-06-16 10:52:47,239 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintDone
+2019-06-16 10:52:47,239 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_printer_safety_check_warning
+2019-06-16 10:52:47,242 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event UpdatedFiles
+2019-06-16 10:52:47,243 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event MetadataStatisticsUpdated
+2019-06-16 10:52:47,245 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingCancelled
+2019-06-16 10:52:47,246 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Disconnected
+2019-06-16 10:52:47,247 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SettingsUpdated
+2019-06-16 10:52:47,247 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event ToolChange
+2019-06-16 10:52:47,248 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event MovieRendering
+2019-06-16 10:52:47,248 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_pi_support_throttle_state
+2019-06-16 10:52:47,249 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event MetadataAnalysisFinished
+2019-06-16 10:52:47,250 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingFailed
+2019-06-16 10:52:47,251 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event RegisteredMessageReceived
+2019-06-16 10:52:47,252 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintResumed
+2019-06-16 10:52:47,258 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Eject
+2019-06-16 10:52:47,259 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Waiting
+2019-06-16 10:52:47,259 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event CaptureFailed
+2019-06-16 10:52:47,260 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingDone
+2019-06-16 10:52:47,262 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingProfileDeleted
+2019-06-16 10:52:47,263 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event ZChange
+2019-06-16 10:52:47,264 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrinterProfileModified
+2019-06-16 10:52:47,265 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintStarted
+2019-06-16 10:52:47,267 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrinterProfileAdded
+2019-06-16 10:52:47,268 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event ConnectivityChanged
+2019-06-16 10:52:47,269 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrinterReset
+2019-06-16 10:52:47,269 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintFailed
+2019-06-16 10:52:47,270 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Connected
+2019-06-16 10:52:47,270 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_pluginmanager_enable_plugin
+2019-06-16 10:52:47,270 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PositionUpdate
+2019-06-16 10:52:47,271 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingStarted
+2019-06-16 10:52:47,271 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrinterProfileDeleted
+2019-06-16 10:52:47,272 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event TransferStarted
+2019-06-16 10:52:47,273 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Shutdown
+2019-06-16 10:52:47,277 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingProfileModified
+2019-06-16 10:52:47,277 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrinterStateChanged
+2019-06-16 10:52:47,278 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event MovieFailed
+2019-06-16 10:52:47,280 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FileAdded
+2019-06-16 10:52:47,281 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_pluginmanager_install_plugin
+2019-06-16 10:52:47,282 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintPaused
+2019-06-16 10:52:47,284 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FileSelected
+2019-06-16 10:52:47,285 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintCancelled
+2019-06-16 10:52:47,286 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event MetadataAnalysisStarted
+2019-06-16 10:52:47,288 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FolderAdded
+2019-06-16 10:52:47,289 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_pluginmanager_disable_plugin
+2019-06-16 10:52:47,291 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Conveyor
+2019-06-16 10:52:47,293 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Connecting
+2019-06-16 10:52:47,294 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Disconnecting
+2019-06-16 10:52:47,296 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event TransferFailed
+2019-06-16 10:52:47,297 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event ClientClosed
+2019-06-16 10:52:47,298 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event EStop
+2019-06-16 10:52:47,298 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event FileRemoved
+2019-06-16 10:52:47,299 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PostRollStart
+2019-06-16 10:52:47,300 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Home
+2019-06-16 10:52:47,302 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_softwareupdate_update_succeeded
+2019-06-16 10:52:47,304 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Cooling
+2019-06-16 10:52:47,305 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Upload
+2019-06-16 10:52:47,306 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_pluginmanager_uninstall_plugin
+2019-06-16 10:52:47,307 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Error
+2019-06-16 10:52:47,307 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Dwelling
+2019-06-16 10:52:47,309 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event SlicingProfileAdded
+2019-06-16 10:52:47,311 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event plugin_softwareupdate_update_failed
+2019-06-16 10:52:47,312 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Startup
+2019-06-16 10:52:47,312 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event CaptureStart
+2019-06-16 10:52:47,314 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event ClientOpened
+2019-06-16 10:52:47,315 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event Alert
+2019-06-16 10:52:47,317 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event TransferDone
+2019-06-16 10:52:47,318 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event PrintCancelling
+2019-06-16 10:52:47,319 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event MovieDone
+2019-06-16 10:52:47,320 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>> for event CaptureDone
+2019-06-16 10:52:49,470 - octoprint.events.fire - DEBUG - Firing event: UpdatedFiles (Payload: {'type': 'printables'})
+2019-06-16 10:52:49,470 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>>
+2019-06-16 10:52:49,471 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2019-06-16 10:52:49,483 - octoprint.events.fire - DEBUG - Firing event: UpdatedFiles (Payload: {'type': 'gcode'})
+2019-06-16 10:52:49,487 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>>
+2019-06-16 10:52:49,491 - octoprint.events.fire - DEBUG - Firing event: Disconnected (Payload: None)
+2019-06-16 10:52:49,492 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>>
+2019-06-16 10:52:49,497 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': 'Offline', 'state_id': 'OFFLINE'})
+2019-06-16 10:52:49,501 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>>
+2019-06-16 10:52:56,551 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:52:56,557 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:53:06,577 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:53:06,583 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:53:07,367 - octoprint.server.api.system - INFO - Performing command for core:restart: sudo service octoprint restart
+2019-06-16 10:53:07,528 - octoprint.server - INFO - Shutting down...
+2019-06-16 10:53:07,979 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2019-06-16 10:53:07,980 - octoprint.events.fire - DEBUG - Firing event: Shutdown (Payload: None)
+2019-06-16 10:53:07,981 - octoprint.plugins.discovery - DEBUG - Unregistered _http._tcp on port 5000
+2019-06-16 10:53:07,981 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a3ea9d0>>
+2019-06-16 10:53:07,984 - octoprint.plugins.discovery - DEBUG - Unregistered _octoprint._tcp on port 5000
+2019-06-16 10:53:07,988 - octoprint.events - INFO - Event loop shut down
+2019-06-16 10:53:07,991 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY byebye via 127.0.0.1
+2019-06-16 10:53:07,994 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY byebye via 192.168.1.7
+2019-06-16 10:53:07,999 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY byebye via 127.0.0.1
+2019-06-16 10:53:08,003 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY byebye via 192.168.1.7
+2019-06-16 10:53:08,006 - octoprint.server - INFO - Goodbye!
+2019-06-16 10:53:12,446 - octoprint.startup - INFO - ******************************************************************************
+2019-06-16 10:53:12,450 - octoprint.startup - INFO - Starting OctoPrint 1.3.11
+2019-06-16 10:53:12,451 - octoprint.startup - INFO - ******************************************************************************
+2019-06-16 10:53:12,514 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-06-16 10:53:12,518 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2019-06-16 10:53:12,558 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2019-06-16 10:53:14,721 - octoprint.plugin.core - INFO - Plugin TouchUI (0.3.13) is disabled.
+2019-06-16 10:53:15,054 - octoprint.plugin.core - INFO - Plugin Firmware Updater (1.4.0) is disabled.
+2019-06-16 10:53:15,565 - octoprint.plugin.core - INFO - Found 32 plugin(s) providing 30 mixin implementations, 44 hook handlers
+2019-06-16 10:53:16,066 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2019-06-16 10:53:16,096 - octoprint.server - INFO - Intermediary server started
+2019-06-16 10:53:16,097 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2019-06-16 10:53:16,960 - octoprint.plugin.core - INFO - Found 32 plugin(s) providing 30 mixin implementations, 44 hook handlers
+2019-06-16 10:53:17,002 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2019-06-16 10:53:17,827 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2019-06-16 10:53:17,829 - octoprint.events - DEBUG - Subscribed listener <function on_settings_update at 0x71269f70> for event SettingsUpdated
+2019-06-16 10:53:17,861 - octoprint.events - DEBUG - Subscribed listener <bound method Printer._on_event_MetadataAnalysisFinished of <octoprint.printer.standard.Printer object at 0x72431b10>> for event MetadataAnalysisFinished
+2019-06-16 10:53:17,862 - octoprint.events - DEBUG - Subscribed listener <bound method Printer._on_event_MetadataStatisticsUpdated of <octoprint.printer.standard.Printer object at 0x72431b10>> for event MetadataStatisticsUpdated
+2019-06-16 10:53:17,884 - octoprint.plugins.cancelobject - INFO - No beforegcode defined
+2019-06-16 10:53:17,885 - octoprint.plugins.cancelobject - INFO - No aftergcode defined
+2019-06-16 10:53:18,287 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2019-06-16 10:53:20,238 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python -m pip" as command to invoke pip
+2019-06-16 10:53:22,235 - octoprint.util.pip - INFO - Version of pip is 19.1.1
+2019-06-16 10:53:22,236 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-06-16 10:53:22,237 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-06-16 10:53:22,242 - octoprint.plugin.core - INFO - Initialized 30 plugin implementation(s)
+2019-06-16 10:53:22,268 - octoprint.plugin.core - INFO - 32 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Autoscroll (0.0.2) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_autoscroll
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Bed Visualizer (0.1.8) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_bedlevelvisualizer
+|  BetterHeaterTimeout (1.2.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_BetterHeaterTimeout
+|  BLTouch Plugin (0.3.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_BLTouch
+|  Cancel Objects (0.3.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_cancelobject
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Dragon Order (0.1.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_dragon_order
+|  EEPROM Marlin Editor Plugin (1.2.1) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_eeprom_marlin
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+| !Firmware Updater (1.4.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_firmwareupdater
+|  Force Login (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Fullscreen Plugin (0.0.4) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_fullscreen
+|  GcodeEditor (0.2.6) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_GcodeEditor
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+|  M117 Speech Synthesis (0.5.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_M117SpeechSynthesis
+|  Membrane Keypad Plugin (0.1.0) = /home/pi/.octoprint/plugins/OctoPrint-Membranekeypad/octoprint_membranekeypad
+|  Navbar Temperature Plugin (0.11) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_navbartemp
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  SlicerSettingsTab (1.0.3) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_SlicerSettingsTab
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  Themeify (1.2.0) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_themeify
+| !TouchUI (0.3.13) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+|  Webcam Tab (0.1.2) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_webcamtab
+2019-06-16 10:53:22,290 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 918188032
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|      octopi_version: 0.16.0
+|  python:
+|    pip: 19.1.1
+|    version: 2.7.13
+|    virtualenv: /home/pi/oprint
+2019-06-16 10:53:22,303 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2019-06-16 10:53:22,323 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2019-06-16 10:53:22,907 - octoprint.server - INFO - Shutting down intermediary server...
+2019-06-16 10:53:22,933 - octoprint.server - INFO - Intermediary server shut down
+2019-06-16 10:53:22,936 - octoprint.events - INFO - Processing startup event, this is our first event
+2019-06-16 10:53:22,937 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2019-06-16 10:53:22,938 - octoprint.events.fire - DEBUG - Firing event: Startup (Payload: None)
+2019-06-16 10:53:22,941 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2019-06-16 10:53:22,943 - octoprint.events.fire - DEBUG - Firing event: ConnectivityChanged (Payload: {'new': True, 'old': False})
+2019-06-16 10:53:23,069 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2019-06-16 10:53:23,074 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-06-16 10:53:23,389 - octoprint.plugins.softwareupdate - DEBUG - Looks like we are online
+2019-06-16 10:53:23,486 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:53:23,571 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-06-16 10:53:23,679 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:53:23,755 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:53:23,900 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:53:23,985 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:53:24,002 - octoprint.events.fire - DEBUG - Firing event: Connecting (Payload: None)
+2019-06-16 10:53:24,095 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2019-06-16 10:53:24,099 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2019-06-16 10:53:24,113 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Opening serial port"
+2019-06-16 10:53:24,120 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': 'Opening serial port', 'state_id': 'OPEN_SERIAL'})
+2019-06-16 10:53:24,128 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-06-16 10:53:24,133 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _http._tcp
+2019-06-16 10:53:24,135 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': 'Connecting', 'state_id': 'CONNECTING'})
+2019-06-16 10:53:24,151 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-06-16 10:53:24,163 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _octoprint._tcp
+2019-06-16 10:53:24,169 - octoprint.plugins.pi_support - DEBUG - Retrieving throttle state via "/usr/bin/vcgencmd get_throttled"
+2019-06-16 10:53:24,170 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2019-06-16 10:53:24,175 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:53:24,192 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:53:24,214 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2019-06-16 10:53:24,285 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:53:24,309 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-06-16 10:53:24,536 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:53:24,862 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-06-16 10:53:24,948 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:53:25,077 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:53:25,160 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:53:26,409 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python -m pip" as command to invoke pip
+2019-06-16 10:53:26,410 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-06-16 10:53:26,411 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-06-16 10:53:26,432 - octoprint.plugins.softwareupdate - DEBUG - Looks like we are online
+2019-06-16 10:53:26,482 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.1.8
+2019-06-16 10:53:26,702 - octoprint.server.util.flask - INFO - Passively logging in user jim from ::ffff:192.168.1.8
+2019-06-16 10:53:26,712 - octoprint.plugins.bedlevelvisualizer - INFO - OctoPrint-BedLevelVisualizer loaded!
+2019-06-16 10:53:26,735 - octoprint.plugins.membranekeypad - INFO - [[1, 2, 3], [4, 5, 6], [7, 8, 9], ['*', 0, '#'], 5, 6, 13, 19, 26, 20, 21]
+2019-06-16 10:53:27,717 - octoprint.server.util.sockjs - INFO - User jim logged in on the socket from client ::ffff:192.168.1.8
+2019-06-16 10:53:27,721 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PowerOn
+2019-06-16 10:53:27,722 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FirmwareData
+2019-06-16 10:53:27,722 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileDeselected
+2019-06-16 10:53:27,723 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PostRollEnd
+2019-06-16 10:53:27,723 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FolderRemoved
+2019-06-16 10:53:27,724 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PowerOff
+2019-06-16 10:53:27,724 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintDone
+2019-06-16 10:53:27,725 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_printer_safety_check_warning
+2019-06-16 10:53:27,725 - octoprint.events.fire - DEBUG - Firing event: ClientOpened (Payload: {'remoteAddress': '::ffff:192.168.1.8'})
+2019-06-16 10:53:27,728 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event UpdatedFiles
+2019-06-16 10:53:27,732 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MetadataStatisticsUpdated
+2019-06-16 10:53:27,734 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingCancelled
+2019-06-16 10:53:27,735 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Disconnected
+2019-06-16 10:53:27,736 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SettingsUpdated
+2019-06-16 10:53:27,738 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ToolChange
+2019-06-16 10:53:27,739 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MovieRendering
+2019-06-16 10:53:27,739 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pi_support_throttle_state
+2019-06-16 10:53:27,742 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MetadataAnalysisFinished
+2019-06-16 10:53:27,743 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingFailed
+2019-06-16 10:53:27,745 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event RegisteredMessageReceived
+2019-06-16 10:53:27,746 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintResumed
+2019-06-16 10:53:27,747 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Eject
+2019-06-16 10:53:27,748 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Waiting
+2019-06-16 10:53:27,749 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event CaptureFailed
+2019-06-16 10:53:27,750 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingDone
+2019-06-16 10:53:27,750 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingProfileDeleted
+2019-06-16 10:53:27,752 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ZChange
+2019-06-16 10:53:27,753 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterProfileModified
+2019-06-16 10:53:27,754 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintStarted
+2019-06-16 10:53:27,755 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterProfileAdded
+2019-06-16 10:53:27,756 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ConnectivityChanged
+2019-06-16 10:53:27,757 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterReset
+2019-06-16 10:53:27,759 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintFailed
+2019-06-16 10:53:27,761 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Connected
+2019-06-16 10:53:27,762 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_enable_plugin
+2019-06-16 10:53:27,763 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PositionUpdate
+2019-06-16 10:53:27,765 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingStarted
+2019-06-16 10:53:27,765 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterProfileDeleted
+2019-06-16 10:53:27,766 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event TransferStarted
+2019-06-16 10:53:27,766 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Shutdown
+2019-06-16 10:53:27,767 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingProfileModified
+2019-06-16 10:53:27,767 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterStateChanged
+2019-06-16 10:53:27,768 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MovieFailed
+2019-06-16 10:53:27,769 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileAdded
+2019-06-16 10:53:27,769 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_install_plugin
+2019-06-16 10:53:27,770 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintPaused
+2019-06-16 10:53:27,771 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileSelected
+2019-06-16 10:53:27,774 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintCancelled
+2019-06-16 10:53:27,775 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MetadataAnalysisStarted
+2019-06-16 10:53:27,776 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FolderAdded
+2019-06-16 10:53:27,777 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_disable_plugin
+2019-06-16 10:53:27,778 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Conveyor
+2019-06-16 10:53:27,779 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Connecting
+2019-06-16 10:53:27,781 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Disconnecting
+2019-06-16 10:53:27,782 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event TransferFailed
+2019-06-16 10:53:27,783 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ClientClosed
+2019-06-16 10:53:27,784 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event EStop
+2019-06-16 10:53:27,785 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileRemoved
+2019-06-16 10:53:27,786 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PostRollStart
+2019-06-16 10:53:27,787 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Home
+2019-06-16 10:53:27,788 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_softwareupdate_update_succeeded
+2019-06-16 10:53:27,789 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Cooling
+2019-06-16 10:53:27,790 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Upload
+2019-06-16 10:53:27,792 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_uninstall_plugin
+2019-06-16 10:53:27,792 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Error
+2019-06-16 10:53:27,794 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Dwelling
+2019-06-16 10:53:27,795 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingProfileAdded
+2019-06-16 10:53:27,796 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_softwareupdate_update_failed
+2019-06-16 10:53:27,796 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Startup
+2019-06-16 10:53:27,798 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event CaptureStart
+2019-06-16 10:53:27,799 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ClientOpened
+2019-06-16 10:53:27,800 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Alert
+2019-06-16 10:53:27,801 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event TransferDone
+2019-06-16 10:53:27,802 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintCancelling
+2019-06-16 10:53:27,803 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MovieDone
+2019-06-16 10:53:27,803 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event CaptureDone
+2019-06-16 10:53:28,807 - octoprint.server.util.flask - INFO - Passively logging in user jim from ::ffff:192.168.1.8
+2019-06-16 10:53:34,265 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:53:34,289 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:53:44,777 - octoprint.events.fire - DEBUG - Firing event: ClientClosed (Payload: {'remoteAddress': '::ffff:192.168.1.8'})
+2019-06-16 10:53:44,779 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>>
+2019-06-16 10:53:44,780 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PowerOn
+2019-06-16 10:53:44,794 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FirmwareData
+2019-06-16 10:53:44,796 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileDeselected
+2019-06-16 10:53:44,798 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PostRollEnd
+2019-06-16 10:53:44,800 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FolderRemoved
+2019-06-16 10:53:44,801 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PowerOff
+2019-06-16 10:53:44,802 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintDone
+2019-06-16 10:53:44,803 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_printer_safety_check_warning
+2019-06-16 10:53:44,804 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event UpdatedFiles
+2019-06-16 10:53:44,806 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MetadataStatisticsUpdated
+2019-06-16 10:53:44,808 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingCancelled
+2019-06-16 10:53:44,809 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Disconnected
+2019-06-16 10:53:44,810 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SettingsUpdated
+2019-06-16 10:53:44,811 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ToolChange
+2019-06-16 10:53:44,813 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MovieRendering
+2019-06-16 10:53:44,815 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pi_support_throttle_state
+2019-06-16 10:53:44,816 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MetadataAnalysisFinished
+2019-06-16 10:53:44,819 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingFailed
+2019-06-16 10:53:44,821 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event RegisteredMessageReceived
+2019-06-16 10:53:44,823 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintResumed
+2019-06-16 10:53:44,824 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Eject
+2019-06-16 10:53:44,826 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Waiting
+2019-06-16 10:53:44,827 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event CaptureFailed
+2019-06-16 10:53:44,828 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingDone
+2019-06-16 10:53:44,829 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingProfileDeleted
+2019-06-16 10:53:44,831 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ZChange
+2019-06-16 10:53:44,832 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterProfileModified
+2019-06-16 10:53:44,833 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintStarted
+2019-06-16 10:53:44,834 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterProfileAdded
+2019-06-16 10:53:44,836 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ConnectivityChanged
+2019-06-16 10:53:44,837 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterReset
+2019-06-16 10:53:44,839 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintFailed
+2019-06-16 10:53:44,840 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Connected
+2019-06-16 10:53:44,841 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_enable_plugin
+2019-06-16 10:53:44,843 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PositionUpdate
+2019-06-16 10:53:44,844 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingStarted
+2019-06-16 10:53:44,845 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterProfileDeleted
+2019-06-16 10:53:44,847 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event TransferStarted
+2019-06-16 10:53:44,848 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Shutdown
+2019-06-16 10:53:44,849 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingProfileModified
+2019-06-16 10:53:44,850 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrinterStateChanged
+2019-06-16 10:53:44,852 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MovieFailed
+2019-06-16 10:53:44,853 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileAdded
+2019-06-16 10:53:44,854 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_install_plugin
+2019-06-16 10:53:44,855 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintPaused
+2019-06-16 10:53:44,857 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileSelected
+2019-06-16 10:53:44,858 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintCancelled
+2019-06-16 10:53:44,859 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MetadataAnalysisStarted
+2019-06-16 10:53:44,860 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FolderAdded
+2019-06-16 10:53:44,862 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_disable_plugin
+2019-06-16 10:53:44,863 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Conveyor
+2019-06-16 10:53:44,864 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Connecting
+2019-06-16 10:53:44,865 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Disconnecting
+2019-06-16 10:53:44,866 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event TransferFailed
+2019-06-16 10:53:44,868 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ClientClosed
+2019-06-16 10:53:44,869 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event EStop
+2019-06-16 10:53:44,870 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event FileRemoved
+2019-06-16 10:53:44,871 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PostRollStart
+2019-06-16 10:53:44,872 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Home
+2019-06-16 10:53:44,873 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_softwareupdate_update_succeeded
+2019-06-16 10:53:44,875 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Cooling
+2019-06-16 10:53:44,876 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Upload
+2019-06-16 10:53:44,877 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_pluginmanager_uninstall_plugin
+2019-06-16 10:53:44,878 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Error
+2019-06-16 10:53:44,879 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Dwelling
+2019-06-16 10:53:44,880 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event SlicingProfileAdded
+2019-06-16 10:53:44,882 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event plugin_softwareupdate_update_failed
+2019-06-16 10:53:44,883 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Startup
+2019-06-16 10:53:44,884 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event CaptureStart
+2019-06-16 10:53:44,885 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event ClientOpened
+2019-06-16 10:53:44,886 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event Alert
+2019-06-16 10:53:44,887 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event TransferDone
+2019-06-16 10:53:44,888 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event PrintCancelling
+2019-06-16 10:53:44,890 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event MovieDone
+2019-06-16 10:53:44,891 - octoprint.events - DEBUG - Unsubscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x708f7f70>> for event CaptureDone
+2019-06-16 10:53:44,892 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:192.168.1.8
+2019-06-16 10:53:45,254 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:192.168.1.8
+2019-06-16 10:53:45,418 - octoprint.server.util.flask - INFO - Passively logging in user jim from ::ffff:192.168.1.8
+2019-06-16 10:53:46,431 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:53:46,438 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:53:46,623 - octoprint.plugins.forcelogin - DEBUG - Socket message held back until authed, added to backlog: plugin
+2019-06-16 10:53:46,625 - octoprint.plugins.forcelogin - DEBUG - Socket message held back until authed, added to backlog: plugin
+2019-06-16 10:53:47,125 - octoprint.plugins.announcements - DEBUG - Loaded channel _blog from cache at /home/pi/.octoprint/data/announcements/_blog.cache
+2019-06-16 10:53:47,204 - octoprint.plugins.announcements - DEBUG - Loaded channel _important from cache at /home/pi/.octoprint/data/announcements/_important.cache
+2019-06-16 10:53:47,306 - octoprint.plugins.announcements - DEBUG - Loaded channel _octopi from cache at /home/pi/.octoprint/data/announcements/_octopi.cache
+2019-06-16 10:53:47,421 - octoprint.plugins.announcements - DEBUG - Loaded channel _plugins from cache at /home/pi/.octoprint/data/announcements/_plugins.cache
+2019-06-16 10:53:47,504 - octoprint.plugins.announcements - DEBUG - Loaded channel _releases from cache at /home/pi/.octoprint/data/announcements/_releases.cache
+2019-06-16 10:53:47,772 - octoprint.plugins.softwareupdate - DEBUG - Looks like we are online
+2019-06-16 10:53:47,860 - octoprint.server.util.sockjs - INFO - User jim logged in on the socket from client ::ffff:192.168.1.8
+2019-06-16 10:53:47,863 - octoprint.plugins.forcelogin - DEBUG - Sent backlog of 2 message(s) via socket
+2019-06-16 10:53:47,867 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PowerOn
+2019-06-16 10:53:47,868 - octoprint.events.fire - DEBUG - Firing event: ClientOpened (Payload: {'remoteAddress': '::ffff:192.168.1.8'})
+2019-06-16 10:53:47,868 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FirmwareData
+2019-06-16 10:53:47,871 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FileDeselected
+2019-06-16 10:53:47,873 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PostRollEnd
+2019-06-16 10:53:47,874 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FolderRemoved
+2019-06-16 10:53:47,875 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PowerOff
+2019-06-16 10:53:47,875 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintDone
+2019-06-16 10:53:47,876 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_printer_safety_check_warning
+2019-06-16 10:53:47,878 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event UpdatedFiles
+2019-06-16 10:53:47,879 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event MetadataStatisticsUpdated
+2019-06-16 10:53:47,881 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingCancelled
+2019-06-16 10:53:47,882 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Disconnected
+2019-06-16 10:53:47,883 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SettingsUpdated
+2019-06-16 10:53:47,884 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event ToolChange
+2019-06-16 10:53:47,884 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event MovieRendering
+2019-06-16 10:53:47,885 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_pi_support_throttle_state
+2019-06-16 10:53:47,886 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event MetadataAnalysisFinished
+2019-06-16 10:53:47,887 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingFailed
+2019-06-16 10:53:47,888 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event RegisteredMessageReceived
+2019-06-16 10:53:47,888 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintResumed
+2019-06-16 10:53:47,889 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Eject
+2019-06-16 10:53:47,892 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Waiting
+2019-06-16 10:53:47,893 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event CaptureFailed
+2019-06-16 10:53:47,894 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingDone
+2019-06-16 10:53:47,895 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingProfileDeleted
+2019-06-16 10:53:47,896 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event ZChange
+2019-06-16 10:53:47,897 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrinterProfileModified
+2019-06-16 10:53:47,898 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintStarted
+2019-06-16 10:53:47,900 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrinterProfileAdded
+2019-06-16 10:53:47,901 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event ConnectivityChanged
+2019-06-16 10:53:47,902 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrinterReset
+2019-06-16 10:53:47,903 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintFailed
+2019-06-16 10:53:47,904 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Connected
+2019-06-16 10:53:47,905 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_pluginmanager_enable_plugin
+2019-06-16 10:53:47,906 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PositionUpdate
+2019-06-16 10:53:47,907 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingStarted
+2019-06-16 10:53:47,908 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrinterProfileDeleted
+2019-06-16 10:53:47,910 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event TransferStarted
+2019-06-16 10:53:47,911 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Shutdown
+2019-06-16 10:53:47,912 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingProfileModified
+2019-06-16 10:53:47,913 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrinterStateChanged
+2019-06-16 10:53:47,914 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event MovieFailed
+2019-06-16 10:53:47,916 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FileAdded
+2019-06-16 10:53:47,917 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_pluginmanager_install_plugin
+2019-06-16 10:53:47,918 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintPaused
+2019-06-16 10:53:47,919 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FileSelected
+2019-06-16 10:53:47,919 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintCancelled
+2019-06-16 10:53:47,920 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event MetadataAnalysisStarted
+2019-06-16 10:53:47,922 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FolderAdded
+2019-06-16 10:53:47,923 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_pluginmanager_disable_plugin
+2019-06-16 10:53:47,924 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Conveyor
+2019-06-16 10:53:47,925 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Connecting
+2019-06-16 10:53:47,926 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Disconnecting
+2019-06-16 10:53:47,928 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event TransferFailed
+2019-06-16 10:53:47,929 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event ClientClosed
+2019-06-16 10:53:47,929 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event EStop
+2019-06-16 10:53:47,930 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event FileRemoved
+2019-06-16 10:53:47,930 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PostRollStart
+2019-06-16 10:53:47,931 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Home
+2019-06-16 10:53:47,933 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_softwareupdate_update_succeeded
+2019-06-16 10:53:47,933 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Cooling
+2019-06-16 10:53:47,935 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Upload
+2019-06-16 10:53:47,935 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_pluginmanager_uninstall_plugin
+2019-06-16 10:53:47,937 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Error
+2019-06-16 10:53:47,938 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Dwelling
+2019-06-16 10:53:47,939 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event SlicingProfileAdded
+2019-06-16 10:53:47,940 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event plugin_softwareupdate_update_failed
+2019-06-16 10:53:47,941 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Startup
+2019-06-16 10:53:47,941 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event CaptureStart
+2019-06-16 10:53:47,942 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event ClientOpened
+2019-06-16 10:53:47,943 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event Alert
+2019-06-16 10:53:47,944 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event TransferDone
+2019-06-16 10:53:47,945 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event PrintCancelling
+2019-06-16 10:53:47,947 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event MovieDone
+2019-06-16 10:53:47,948 - octoprint.events - DEBUG - Subscribed listener <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>> for event CaptureDone
+2019-06-16 10:53:54,182 - octoprint.events.fire - DEBUG - Firing event: UpdatedFiles (Payload: {'type': 'printables'})
+2019-06-16 10:53:54,184 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Offline"
+2019-06-16 10:53:54,185 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>>
+2019-06-16 10:53:54,197 - octoprint.events.fire - DEBUG - Firing event: UpdatedFiles (Payload: {'type': 'gcode'})
+2019-06-16 10:53:54,202 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>>
+2019-06-16 10:53:54,211 - octoprint.events.fire - DEBUG - Firing event: Disconnected (Payload: None)
+2019-06-16 10:53:54,224 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>>
+2019-06-16 10:53:54,259 - octoprint.events.fire - DEBUG - Firing event: PrinterStateChanged (Payload: {'state_string': 'Offline', 'state_id': 'OFFLINE'})
+2019-06-16 10:53:54,261 - octoprint.events - DEBUG - Sending action to <bound method PrinterStateConnection._onEvent of <octoprint.server.util.sockjs.PrinterStateConnection object at 0x6a2c8170>>
+2019-06-16 10:53:56,456 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:53:56,461 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:54:06,479 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:54:06,484 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:54:17,186 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:54:17,192 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:54:28,220 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:54:28,226 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:54:46,457 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:54:46,463 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:54:56,483 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:54:56,488 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:55:06,507 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:55:06,513 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:55:16,551 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:55:16,557 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:55:26,569 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:55:26,575 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:55:46,475 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:55:46,478 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:55:56,493 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:55:56,497 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:56:06,514 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:56:06,520 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:56:17,200 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:56:17,206 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:56:28,229 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:56:28,232 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:56:46,474 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:56:46,478 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:56:56,489 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:56:56,493 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:57:06,515 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:57:06,518 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:57:16,532 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:57:16,538 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:57:26,557 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:57:26,563 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:57:46,491 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:57:46,494 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:57:56,509 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:57:56,518 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:58:06,531 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:58:06,537 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:58:17,215 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:58:17,222 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:58:24,217 - octoprint.plugins.pi_support - DEBUG - Retrieving throttle state via "/usr/bin/vcgencmd get_throttled"
+2019-06-16 10:58:30,905 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:58:30,911 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:58:46,504 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:58:46,510 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:58:56,528 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:58:56,536 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:59:06,556 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:59:06,562 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:59:16,580 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:59:16,585 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:59:26,603 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:59:26,609 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:59:46,607 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:59:46,613 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 10:59:56,630 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 10:59:56,636 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 11:00:06,654 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 11:00:06,660 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 11:00:17,229 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 11:00:17,235 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
+2019-06-16 11:00:28,158 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 127.0.0.1
+2019-06-16 11:00:28,164 - octoprint.plugins.discovery - DEBUG - Sending NOTIFY alive via 192.168.1.7
