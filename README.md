@@ -12,4 +12,5 @@ the plugin manager.
 ## Dependencies
 
 RPi.GPIO
+
 pad4pi
