@@ -1,16 +1,17 @@
 # OctoPrint-Membranekeypad
 
-Use a (currently only) 3x4 membrane matrix keypad over Raspberry Pi's GPIO to control your 3D Printer
+**TODO:** Describe what your plugin does.
 
 ## Setup
 
-[Still under development and working out some bugs]
+Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
+or manually using this URL:
+
+    https://github.com/jimbalny/OctoPrint-Membranekeypad/archive/master.zip
 
 **TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
 the plugin manager.
 
-## Dependencies
+## Configuration
 
-RPi.GPIO
-
-pad4pi
+**TODO:** Describe your plugin's configuration options (if any).

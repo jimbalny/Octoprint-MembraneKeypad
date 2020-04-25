@@ -118,7 +118,7 @@ class MembranekeypadPlugin(octoprint.plugin.SettingsPlugin,
 		self.CP2 = self._settings.get(["pCP2"])
 		self.CP3 = self._settings.get(["pCP3"])
 
-		GPIO.setwarnings(False)
+		#GPIO.setwarnings(False)
 		
 		# Keypad Buttons Definition
 		KPad = [[1, 2, 3], [4, 5, 6], [7, 8, 9], ['*', 0, '#']] 
@@ -133,16 +133,15 @@ class MembranekeypadPlugin(octoprint.plugin.SettingsPlugin,
 			factory = rpi_gpio.KeypadFactory()
 			keypad = factory.create_keypad(keypad=KPad, row_pins=Row_Pins, col_pins=Col_Pins)
 			keypad.registerKeyPressHandler(self.pressKey)
-			
-			while True:
-				time.sleep(1)
+			time.sleep(1)
+
 				
 		except:
 			self._logger.info("Error Initializing Keypad!")
 			
-		finally:
-			self._logger.info("GPIO Cleanup")
-			keypad.cleanup()
+		#finally:
+		#	self._logger.info("GPIO Cleanup")
+		#	keypad.cleanup()
 		
 	def pressKey(self, key):
 		self.movementMM = self._settings.get(["movementAmount"])
